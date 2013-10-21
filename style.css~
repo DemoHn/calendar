@@ -1,0 +1,15 @@
+.calendar table{
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+.calendar > td {
+    margin:4px;
+    outline:1px black solid;
+}
+
+.calendar > tr {
+    margin:2px;
+    border:none;
+}

@@ -1,0 +1,70 @@
+.calender{
+    height:240px;
+    width:250px;
+}
+
+.calender > div.nav{
+    font-family:"Arial";
+    text-align:center;
+    display:table;
+    vertical-align:middle;
+    height:50px;
+    cursor:pointer;
+}
+
+.calender div.nav-prev , .calender div.nav-next {
+    height:50px;
+    width:20%;
+    position:relative;
+    float:left;
+    text-align:center;
+    line-height:50px;
+    font-size:25px;
+}
+
+.calender div.nav-title {
+    width:60%;
+    height:50px;
+    line-height:50px;
+    position:relative;
+    float:left;
+    text-align:center;
+    font-size:20px;
+}
+
+.calender table{
+    border:none;
+    margin:0;
+    table-layout:fixed;
+    padding:0;
+}
+
+.calender table td {
+    margin:4px;
+    border:1px black solid;
+    text-align:center;
+    vertical-align:middle;
+    font-family:"Arial";
+    cursor:pointer;
+}
+
+.calender table tr {
+    margin:2px;
+    border:none;
+}
+.calender table td.prev {
+    color: green;
+}
+
+.calender table td.current {
+    color: black;
+}
+
+.calender table td.next{
+    color: blue;
+}
+
+.calender table td.current_day {
+    background-color: darkblue;
+    color:white;
+}
